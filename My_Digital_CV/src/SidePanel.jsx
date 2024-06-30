@@ -1,14 +1,15 @@
+import PanelCard from "./PanelCard"
+
 function SidePanel() {
 
 
     return (
 
-        <ul className="sidePanel_elements">
-            <li>EDUCATION</li>
-            <li>PROFESSIONAL CAREER</li>
-            <li>PROJECTS</li>
-        </ul>
-
+        <>
+            <PanelCard/>
+            <PanelCard/>
+            <PanelCard/>
+        </>
     )
 }
 export default SidePanel

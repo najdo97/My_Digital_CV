@@ -6,7 +6,7 @@ function Footer() {
             <ul className="footer_elements">
                 <li>GitHub</li>
                 <li>LeetCode</li>
-                <li>Gmail</li>
+                <li>LinkedIN</li>
             </ul>
         </>
     )

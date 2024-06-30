@@ -38,16 +38,28 @@ footer {
   color: burlywood;
 }
 
-.sidePanel_elements {
 
+
+.panelCard{
+  
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  background-color: hsl(0, 0%, 80%);
+  
+  font-size: large;
   text-align: center;
   
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  margin: 5px;
-  padding: 10px;
-  background-color: #f1f1f1;
-  width: 20%;
-  color: crimson;
+  padding: 5px;
+
+  margin: 10px;
+  display: inline-block;
+
+  width: 15%;
+  max-width: 15%;
+  min-width: 200px;
+
+  height: 75px;
+
+  cursor: pointer ;
 }
