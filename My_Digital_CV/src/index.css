@@ -1,65 +1,46 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
-#root {
+.nav-bar {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  justify-content: right;
+  align-items: center;
+  background-color: hsl(0, 0%, 80%);
 }
 
-footer {
-  background-color: #f1f1f1;
-  text-align: center;
+.nav-bar-buttons{
+  display: flex;
+  list-style: none;
   padding: 10px;
-  margin-top: auto;
 }
 
+.nav-bar-buttons li{
+  padding: 10px;
+}
+
+.nav-bar-buttons li button{
+cursor: pointer;
+  width: 150px;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.footer-bar{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: hsl(0, 0%, 80%);
+  
+}
 .footer_elements {
 
   display: flex;
   justify-content: center;
   list-style: none;
   margin: 0;
-  padding: 0;
-  background-color: #f1f1f1;
+  padding: 10px;
   width: 100%;
 }
 
 .footer_elements li {
   margin: 0 10px;
-  padding: 10px 0;
-}
-
-
-.header_elements {
-  color: burlywood;
-}
-
-
-
-.panelCard{
-  
-  border: 1px solid hsl(0, 0%, 0%);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
-  background-color: hsl(0, 0%, 80%);
-  
-  font-size: large;
-  text-align: center;
-  
-  padding: 5px;
-
-  margin: 10px;
-  display: inline-block;
-
-  width: 15%;
-  max-width: 15%;
-  min-width: 200px;
-
-  height: 75px;
-
-  cursor: pointer ;
+  padding: 10px 0 ;
 }
