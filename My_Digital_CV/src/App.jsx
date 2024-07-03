@@ -1,14 +1,18 @@
 import Header from "./Header"
 
-import Footer from "./Footer"
+// import Footer from "./Footer"
+import SidePanel from "./SidePanel"
+import MainPanel from "./MainPanel"
+
+
 function App() {
-  
+
   return (
-    <>
+    <div className="app-style">
       <Header/>
-      
-      <Footer/>
-    </>
+      <SidePanel/>
+      <MainPanel/>
+    </div>
   )
 }
 

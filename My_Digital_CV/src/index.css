@@ -1,35 +1,120 @@
-.nav-bar {
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  margin: 0;
+}
+
+.app-style {
+  display: flex;
+}
+
+
+.side-nav-bar {
+  position: sticky;
+  left: 0;
+  top: 0;
+  background: linear-gradient(gray, black);
+  border: 1px solid black;
+  min-width: 200px;
+  max-width: 10%;
+
+  height: 100vh;
+  overflow: auto;
+
+}
+
+.nav-bar-buttons {
+
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  right: 10%;
+
+}
+
+.nav-bar-buttons li button {
+  background: linear-gradient(gray, black);
+  color: chartreuse;
+  cursor: pointer;
+
+  height: 20vh;
+  width: 100%;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: bold;
+
+}
+
+.main-section {
+  background: linear-gradient(white,gray);
+  display: block;
+  width: 100%;
+  
+}
+
+.about-section {
+  text-align: center;
+  padding: 20px;
+  width: 50vh;
+  margin: auto;
+}
+
+.education-section {
+  text-align: center;
+  padding: 20px;
+  width: 50vh;
+  margin: auto;
+}
+
+.work-experience-section {
+  text-align: center;
+  padding: 20px;
+  width: 50vh;
+  margin: auto;
+}
+
+.projects-section{
+  text-align: center;
+  padding: 20px;
+  width: 50vh;
+  margin: auto;
+}
+
+
+.header-component{
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: right;
-  align-items: center;
+  width: 100%;
   background-color: hsl(0, 0%, 80%);
 }
 
-.nav-bar-buttons{
-  display: flex;
-  list-style: none;
-  padding: 10px;
+.header-component h1{
+
+  padding: 20px;
 }
 
-.nav-bar-buttons li{
-  padding: 10px;
-}
 
-.nav-bar-buttons li button{
-cursor: pointer;
-  width: 150px;
-  border-radius: 10%;
-  padding: 10px;
-}
-
-.footer-bar{
+.footer-bar {
   display: flex;
   position: fixed;
   bottom: 0;
   width: 100%;
   background-color: hsl(0, 0%, 80%);
-  
+
 }
+
 .footer_elements {
   position: bottom;
   display: flex;
@@ -44,5 +129,5 @@ cursor: pointer;
 
 .footer_elements li {
   margin: 0 10px;
-  padding: 10px 0 ;
+  padding: 10px 0;
 }
