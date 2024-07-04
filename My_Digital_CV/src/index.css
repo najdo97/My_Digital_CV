@@ -15,22 +15,24 @@ body {
 
 
 .side-nav-bar {
+
   position: sticky;
   left: 0;
   top: 0;
-  background: linear-gradient(gray, black);
-  border: 1px solid black;
+  background: linear-gradient(gray, rgb(61, 61, 61));
+  border: none;
   min-width: 200px;
   max-width: 10%;
 
   height: 100vh;
   overflow: auto;
+  
 
 }
 
 .nav-bar-buttons {
 
-  margin-top: 5vh;
+  margin-top: 10vh;
   margin-bottom: 5vh;
 
   display: inline-block;
@@ -41,24 +43,27 @@ body {
 }
 
 .nav-bar-buttons li button {
-  background: linear-gradient(gray, black);
+  background: linear-gradient(rgb(48, 48, 48), rgb(75, 75, 75));
   color: chartreuse;
   cursor: pointer;
-
+  border: none;
+  border-radius: 50px;
+  
   height: 20vh;
   width: 100%;
   margin-top: 10px;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
-  font-weight: bold;
+
 
 }
 
 .main-section {
-  background: linear-gradient(white,gray);
+  background: linear-gradient(white,rgb(196, 196, 196));
   display: block;
   width: 100%;
-  
+  margin-top: 72px;
+
 }
 
 .about-section {
@@ -96,15 +101,32 @@ body {
   left: 0;
   display: flex;
   justify-content: right;
-  width: 100%;
-  background-color: hsl(0, 0%, 80%);
+  width: 90%;  
+  margin-left: 200px;
+
+  background: linear-gradient(to right,gray,black);
+
 }
 
-.header-component h1{
-
-  padding: 20px;
+.header-elements{
+  display: flex;
+  list-style: none;
+  padding: 5px;
 }
 
+.header-elements li{
+  padding: 5px;
+}
+
+.header-elements a{
+  color: greenyellow;
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  
+
+}
 
 .footer-bar {
   display: flex;
@@ -118,7 +140,7 @@ body {
 .footer_elements {
   position: bottom;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   list-style: none;
   margin: 0;
   padding: 10px;
