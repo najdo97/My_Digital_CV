@@ -24,7 +24,7 @@ body {
   min-width: 200px;
   max-width: 10%;
 
-  height: 100vh;
+  height: 101vh;
   overflow: auto;
   
 
@@ -70,7 +70,7 @@ body {
   text-align: left;
   padding: 20px;
   width: 75vh;
-  height: 86vh;
+  /* height: 86vh; */
   margin-right: auto;
   font-family:Georgia, 'Times New Roman', Times, serif;
   
@@ -82,7 +82,7 @@ body {
   padding: 20px;
   width: 50vh;
   margin-left: auto;
-  height: 86vh;
+  /* height: 86vh; */
 }
 
 .work-experience-section {
@@ -90,7 +90,7 @@ body {
   padding: 20px;
   width: 50vh;
   margin-right: auto;
-  height: 86vh;
+  /* height: 86vh; */
 }
 
 .projects-section{
@@ -98,7 +98,7 @@ body {
   padding: 20px;
   width: 50vh;
   margin-left: auto;
-  height: 86vh;
+  /* height: 86vh; */
 }
 
 
@@ -108,7 +108,7 @@ body {
   left: 0;
   display: flex;
   justify-content: right;
-  width: 90%;  
+  width: 88%;  
   margin-left: 200px;
 
   background: linear-gradient(to right,gray,black);
